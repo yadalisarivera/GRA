@@ -5,169 +5,138 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Arroz Imperial | Yadalisa Rivera, 2026</title>
 <style>
-    /* Global Reset & Base Styles */
-    * {
-        box-sizing: border-box;
-    }
-
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #f7f5f0;
-        color: #2c2c2c;
-        line-height: 1.6;
-    }
-
-    /* Outer Wrapper */
-    .wrapper {
-        width: 1000px;
-        max-width: 95%;
-        margin: 20px auto;
-        background-color: #ffffff;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-        border-radius: 8px;
-        overflow: hidden;
-    }
-
-    /* Header */
-    header {
-        text-align: center;
-        background-color: #ffd700;
-        padding: 16px 20px;
-        border-bottom: 4px solid #e6b800;
-    }
-
-    .logo {
-        vertical-align: middle;
-        width: 80px;
-        height: auto;
-        margin-right: 12px;
-    }
-
-    header h1 {
-        display: inline;
-        vertical-align: middle;
-        font-size: 2.2rem;
-        color: #333333;
-        margin: 0;
-    }
-
-    /* Main Banner & Intro */
-    .banner {
-        width: 100%;
-        height: 320px;
-        object-fit: cover;
-        display: block;
-    }
-
-    .recipe-header {
-        padding: 24px 32px 12px 32px;
-    }
-
-    .recipe-header h2 {
-        font-size: 2rem;
-        color: #8b0000;
-        margin-top: 0;
-        margin-bottom: 8px;
-        border-bottom: 2px solid #ffd700;
-        padding-bottom: 6px;
-    }
-
-    .description {
-        font-size: 1.05rem;
-        color: #555555;
-    }
-
-    /* Grid Container for Ingredients & Steps */
-    .container {
-        display: grid;
-        grid-template-columns: 32% 65%;
-        gap: 3%;
-        padding: 0 32px 32px 32px;
-    }
-
-    .container h3 {
-        color: #8b0000;
-        font-size: 1.25rem;
-        margin-top: 0;
-        border-bottom: 1px solid #e0e0e0;
-        padding-bottom: 6px;
-    }
-
-    /* Sidebar / Ingredients */
-    .ingredients-section {
-        background-color: #fffdf5;
-        padding: 16px 20px;
-        border-radius: 6px;
-        border: 1px solid #f0e6c8;
-    }
-
-    ul {
-        padding-left: 20px;
-        margin: 0;
-    }
-
-    li {
-        margin-bottom: 8px;
-        font-size: 0.95rem;
-    }
-
-    /* Steps Section */
-    .steps-section {
-        padding-left: 8px;
-    }
-
-    ol {
-        padding-left: 20px;
-        margin: 0;
-    }
-
-    ol li {
-        margin-bottom: 16px;
-        font-size: 0.95rem;
-    }
-
-    ol li strong {
-        color: #111111;
-    }
-
-    /* Footer */
-    footer {
-        background-color: #2c2c2c;
-        color: #cccccc;
-        text-align: center;
-        padding: 20px 32px;
-        font-size: 0.82rem;
-        line-height: 1.4;
-    }
-
-    footer p {
-        margin: 4px 0;
-    }
-
-    footer p:first-child {
-        font-weight: bold;
-        color: #ffffff;
-    }
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: burlywood;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f5f0;
+    color: #2c2c2c;
+    line-height: 1.6;
+	background-image: url(https://media.istockphoto.com/id/496206192/vector/cuba.jpg?s=612x612&w=0&k=20&c=3DHpDYJrYYa3y5v5Gm3Kc10K8vr5O317JRmUmnsYDaQ=);
+}
+.wrapper {
+    width: 1000px;
+    max-width: 95%;
+    margin: 20px auto;
+	box-shadow: 0 0 20px black;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+header {
+    text-align: center;
+    background-color: #ffd700;
+    padding: 16px 20px;
+    border-bottom: 4px solid #e6b800;
+}
+.logo {
+    vertical-align: middle;
+    width: 80px;
+    height: auto;
+    margin-right: 12px;
+}
+header h1 {
+    display: inline;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+    vertical-align: middle;
+    font-size: 40px;
+    margin: 0;
+}
+.banner {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    display: block;
+}
+.recipe-header {
+    padding: 24px 32px 12px 32px;
+}
+.recipe-header h2 {
+    font-size: 2rem;
+    color: #8b0000;
+    margin-top: 0;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #ffd700;
+    padding-bottom: 6px;
+}
+.description {
+    font-size: 1.05rem;
+    color: #555555;
+}
+.container {
+    display: grid;
+    grid-template-columns: 32% 65%;
+    gap: 3%;
+    padding: 0 32px 32px 32px;
+}
+.container h3 {
+    color: #8b0000;
+    font-size: 1.25rem;
+    margin-top: 0;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 6px;
+}
+.ingredients-section {
+    background-color: #fffdf5;
+    padding: 16px 20px;
+    border-radius: 6px;
+    border: 1px solid #f0e6c8;
+}
+ul {
+    padding-left: 20px;
+    margin: 0;
+}
+li {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+.steps-section {
+    padding-left: 8px;
+}
+ol {
+    padding-left: 20px;
+    margin: 0;
+}
+ol li {
+    margin-bottom: 16px;
+    font-size: 0.95rem;
+}
+ol li strong {
+    color: #111111;
+}
+footer {
+    background-color: #2c2c2c;
+    color: #cccccc;
+    text-align: center;
+    padding: 20px 32px;
+    font-size: 0.82rem;
+    line-height: 1.4;
+}
+footer p {
+    margin: 4px 0;
+}
+footer p:first-child {
+    font-weight: bold;
+    color: #ffffff;
+}
 </style>
 </head>
 
 <body>
 <div class="wrapper">
-  <header>
-    <img src="mexican-food-icons-vector-set-linear-style-national-traditional-drink-flat-icon-set-isolated-white-97903820.webp" class="logo" alt="Yadi's Cocina Logo" />
+  <header> <img src="mexican-food-icons-vector-set-linear-style-national-traditional-drink-flat-icon-set-isolated-white-97903820.webp" class="logo" alt="Yadi's Cocina Logo" />
     <h1>Yadi&rsquo;s Cocina</h1>
   </header>
-  
-  <main>
-    <img src="arroz-imperial.webp" class="banner" alt="Arroz Imperial" />
-    
+  <main> <img src="arroz-imperial.webp" class="banner" alt="Arroz Imperial" />
     <div class="recipe-header">
       <h2>Arroz Imperial</h2>
       <p class="description">Arroz Imperial is a classic Cuban comfort dish featuring savory yellow rice layered with shredded chicken, creamy mayonnaise, melted cheese, and sweet pimientos.</p>
     </div>
-
     <div class="container">
       <section class="ingredients-section">
         <h3>Ingredients</h3>
@@ -190,7 +159,6 @@
           <li>Salt and pepper to taste</li>
         </ul>
       </section>
-
       <section class="steps-section">
         <h3>Steps</h3>
         <ol>
@@ -204,7 +172,6 @@
       </section>
     </div>
   </main>
-
   <footer>
     <p>&copy; 2026, Yadalisa Rivera.</p>
     <p>This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
